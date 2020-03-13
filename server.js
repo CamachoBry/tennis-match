@@ -54,6 +54,6 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 
 //Start server
-app.listen(3000, function(){
+app.listen(process.env.PORT || 3000, function(){
     console.log('Started on port 3000...');
 });
