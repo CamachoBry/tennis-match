@@ -14,10 +14,12 @@ html
         h1(id="p2score" style="font-size:80px ;text-align: center; padding: 30px; display: inline;") 0
 
     body
-        div(style="padding-top: 50px; padding-left: 120px;")
-            button(id="playerName1" style="height: 100px; width: 400px; float:inline-start; padding-left: 20px;" onclick="addScore1()") Player1
-            button(id="playerName2" style="height: 100px; width: 400px; float:inline-start; padding-left: 20px;" onclick="addScore2()") Player2
-        div(style="padding-left:375px; padding-top: 30px;")
-            button(style="height: 50px; width: 300px; text-align: center;" id='reset' onclick="resetScores()") Reset Game
+        div(style="padding-top: 50px;  text-align: center;")
+            button(id="playerName1" style="height: 100px; width: 400px; float:inline-start; padding-left: 30px;" onclick="addScore1()") Player1
+            button(id="playerName2" style="height: 100px; width: 400px; float:inline-start; padding-left: 30px;" onclick="addScore2()") Player2
+            
 
+        div(style="padding-top: 70px; text-align: center;")
+            button(style="height: 50px; width: 300px; text-align: center;" id='reset' onclick="resetScores()") Reset Game
+        
     script(src='script.js')
